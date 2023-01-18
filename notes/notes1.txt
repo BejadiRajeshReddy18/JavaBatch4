@@ -1,0 +1,78 @@
+********************JAVA**************************
+
+______________________________________________________
+Java Versions
+------------------------------------------------------
+JDK = Java Development Kit
+JDK ===> JRE + JVM + essential tools {javac, java}
+JRE  ==> you can run the program but you will not be abl;e to compile
+
+We will use JDK 8 and 11
+
+JDK 1.5
+JDK 1.6
+JDK 1.7
+* 1.8 LTS - =========> JDK8 install
+
+JDK 9
+*JDK 11 LTS ==========> install
+JDK 12
+*JDK 17 LTS
+
+* --> LTS versions (LTS means Long Term Support)
+
+______________________________________________________
+Java Vendors
+------------------------------------------------------
+Oracle
+OPEN Jdk / Adoptium [Eclipse]
+Amazon Coretto
+Graal VM
+
+https://chat.whatsapp.com/BdH3PAZk8WdBGdaUO9iTYO
+
+______________________________________________________
+Software's to install
+------------------------------------------------------
+- Editor --> NotePad ++
+- JDK --> 8 and 11
+- IDE --> Eclipse EE (Enterprise Edition)
+
+Editors are generally language independent |
+IDE (Intgrated Dev Environmet) is generally language specific
+
+ Java ---> netbeans
+ *Eclipse (prereqisite JDK 11 should be installed)
+ IntelliJ Idea
+ src means Source
+
+______________________________________________________
+Compiling and Running JAVA code
+------------------------------------------------------
+Main.java
+> javac Main.java  ---- compile ------>Main.class (intermediate code / bytecode)
+> java Main  {it will use Main.class}
+> "Hello, Java was so easy"
+
+______________________________________________________
+Packages
+------------------------------------------------------
+
+- Standard Best Pratices For Package naming convention
+
+com.java.basics
+
+Inside windows creates a nested directory
+com
+	> java
+			>basics
+			Main.java
+www.xyz.com.
+Naming reverse
+com.xyz.chat
+
+______________________________________________________
+Keywords
+------------------------------------------------------
+Keywords are reserved words which has some special meaning
+They SHOULD NOT be used as a variable name
