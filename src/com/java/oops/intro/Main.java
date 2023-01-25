@@ -4,11 +4,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-	
 		int i;
 		Car mazda = new Car();// new is a keyword to create new objects
 		Car kushaq = new Car();// all the objects are independet of each other
-		
+
 //		Car kushaq ==> kushaq ia reference variable
 		new Car();
 
@@ -27,11 +26,21 @@ public class Main {
 
 		mazda.riding();
 		mazda = null;
-		
+
 //		DSA
 //		Design Pattens
+		System.out.println(mazda);// null
+		System.out.println(kushaq);// com.java.oops.intro.Car@182decdb
+		System.out.println(kushaq.hashCode());// hashCodce is available for every objects
 
 		System.out.println(kushaq.mileage);
+	}
+
+}
+
+class Van {
+	public static void main(String[] args) {
+		System.out.println("VAN");
 	}
 
 }

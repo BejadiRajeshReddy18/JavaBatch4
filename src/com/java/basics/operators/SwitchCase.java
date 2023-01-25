@@ -18,6 +18,7 @@ public class SwitchCase {
 		// break continue --> can be use in any loops | break is also used ins witch
 		// cases
 
+		
 		int input;
 		menu: while (true) {
 			System.out.println("MENU ==> \n1 : Water \n2: CocaCola\n3:Real Juice \n0: To Exit	");

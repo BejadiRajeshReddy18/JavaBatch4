@@ -13,7 +13,7 @@ public class Car {
 	String model;// null is default valu for any object
 	int mileage;// 0
 	boolean isManual;// false
-	// instance variables // instance = object
+	// instance variables // instance = object = GLOBAL
 
 	void riding() {// methods
 		int x = 9;//local variables
