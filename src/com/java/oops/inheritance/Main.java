@@ -9,6 +9,9 @@ public class Main {
 		System.out.println(virat);
 		virat.test();
 
+		
+//		Casting
+		
 	}
 
 }

@@ -71,8 +71,116 @@ www.xyz.com.
 Naming reverse
 com.xyz.chat
 
-______________________________________________________
-Keywords
-------------------------------------------------------
+--------------------------- Keywords ---------------------------
 Keywords are reserved words which has some special meaning
 They SHOULD NOT be used as a variable name
+
+
+
+--------------------------- Encapsulation & Access Modifier ---------------------------
+For classes, you can use either public or default:
+
+Modifier
+•	 public - The class is accessible by any other class	
+•	 default - The class is only accessible by classes in the same package. This is used when you don't specify a modifier. You will learn more about packages in the Packages chapter	
+
+
+For attributes, methods and constructors, you can use the one of the following:
+Modifier
+•	 public - The code is accessible for all classes	
+•	 private	- The code is only accessible within the declared class	
+•	 default	- The code is only accessible in the same package. This is used when you don't specify a modifier. You will learn more about packages in the Packages chapter	
+•	 protected - The code is accessible in the same package and subclasses. You will learn more about subclasses and superclasses in the Inheritance chapter
+
+
+--------------------------- Constructors ---------------------------
+A constructor in Java is a special method that is used to initialize objects. 
+
+•	 The constructor is only called once when an object of a class is created.
+•	 It can be used to set initial values for object attributes
+•	 A constructor doesn't has any return type
+•	 private constructors are used for Singelton Design pattern
+•	 When we dont declare a constructor in a class, Java will add a default parameterless constructor while runtime
+
+
+this keyword
+In Java, this is a reference variable that refers to the current object.
+•	The this keyword can be used to refer current class instance variable. If there is ambiguity between the instance variables and parameters, this keyword resolves the problem of ambiguity[Removes Shadow Problem].
+•	this()  can be used to invoke current class constructor  and perform constructor chaining.
+•	this keyword can be used to return current class instance.
+
+
+
+---------------------------Polymorphism---------------------------
+Method Overloading
+• Same method name but different functionality.
+• If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+• If we have to perform only one operation, having same name of the methods increases the readability of the program
+
+Rules
+• No of parameter
+• Type of paramerter
+• Position of paramerter
+
+• Method Overloading is used for compile time polymorphism
+---------------------------Inheritance---------------------------
+
+It helps is reducing code redundancy
+It will make your code quite readable and clean code
+
+Method Overriding
+• If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+• In other words, if a subclass provides the specific implementation of the method that has been declared by one of its parent class, it is known as method overriding.
+• Method overriding is used for runtime polymorphism
+
+Super Keyword
+The super keyword in Java is a reference variable which is used to refer immediate parent class object. Whenever you create the instance of subclass, an instance of parent class is created implicitly which is referred by super reference variable.
+Usage of Java super Keyword
+•	super can be used to refer immediate parent class instance variable.
+•	super can be used to invoke immediate parent class method.
+•	super() can be used to invoke immediate parent class constructor.
+
+
+Final Keyword
+The final keyword in java is used to restrict the user. The java final keyword can be used in many context. Final can be:
+•	class
+•	variable
+•	method
+
+•	A final class cannot be inherited.
+•	A final variable cannot re initialised
+•	A final method can be inherited but cannot be overridden
+•	A blank final variable can only be initialised inside constructor.
+
+The Object class is the parent class of all the classes in java by default. In other words, it is the topmost class of java.
+The Object class is beneficial if you want to refer any object whose type you don't know. Notice that parent class reference variable can refer the child class object, know as upcasting.
+
+
+---------------------------Abstraction---------------------------
+A class which is declared with the abstract keyword is known as an abstract class in Java. It can have abstract and non-abstract methods (method with the body).
+
+1.	An abstract class must be declared with an abstract keyword.
+2.	It can have abstract and non-abstract methods.
+3.	It cannot be directly instantiated.
+4.	It can have constructors and static methods also.
+5.	It can have final methods which will force the subclass not to change the body of the method.
+
+
+
+
+Functional Interface is an interface with just a single method.We can use Lambda function on Functional interfaces only.
+Abstract class and interface both are used to achieve abstraction where we can declare the abstract methods. Abstract class and interface both can't be directly instantiated.
+
+The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java. Though JDK 8 allows to add static and default methods.
+•	Java Interface also represents the IS-A relationship.
+•	It cannot be instantiated just like the abstract class.
+•	Since Java 8, we can have default and static methods in an interface.
+•	Since Java 9, we can have private methods in an interface.
+There are mainly three reasons to use interface. They are given below.
+•	It is used to achieve abstraction.
+•	By interface, we can support the functionality of multiple inheritance.
+
+
+
+---------------------------Project---------------------------
+//Design a Elevator System with the use of OOPS
