@@ -181,6 +181,17 @@ There are mainly three reasons to use interface. They are given below.
 •	By interface, we can support the functionality of multiple inheritance.
 
 
+---------------------------Exception---------------------------
+
+try catch
+try catch catch catch
+try catch finally
+try finally
+
+
+checked ==> The compiler will force you to handle this
+unchecked ==> The compile force you to handle
+
 
 ---------------------------Project---------------------------
 //Design a Elevator System with the use of OOPS
