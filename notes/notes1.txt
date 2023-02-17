@@ -193,5 +193,25 @@ checked ==> The compiler will force you to handle this
 unchecked ==> The compile force you to handle
 
 
+
+---------------------------File Handling---------------------------
+Every file will be inside a folder
+Every folder can have multiple folders and files
+File: 2 types
+
+#Text
+#Binary
+
+
 ---------------------------Project---------------------------
 //Design a Elevator System with the use of OOPS
+
+Elevator System
+- Single-Threaded
+- 10 floors at wach floor you lift should stop[ for 1sec Thread.sleep(1000)
+- You have to use oops
+- Coding standards
+- You have to use standard data structures to implement this project
+
+Don't use CHAT GPT
+
